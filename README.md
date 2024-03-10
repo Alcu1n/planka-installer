@@ -9,7 +9,7 @@ Install Planka with one single command and a few questions
 
 **User who used the installer before Oct. 11 2023 please run the migration script**
 ```bash
-wget https://raw.githubusercontent.com/plankanban/planka-installer/main/migration.sh -O /opt/installer_migration.sh && bash /opt/installer_migration.sh && rm -f /opt/installer_migration.sh
+wget https://raw.githubusercontent.com/alcu1n/planka-installer/main/migration.sh -O /opt/installer_migration.sh && bash /opt/installer_migration.sh && rm -f /opt/installer_migration.sh
 ```
 
 Because you need a fresh server anyway, i recommend Ubuntu 22.04 or Debian 12.
@@ -43,7 +43,7 @@ Because you need a fresh server anyway, i recommend Ubuntu 22.04 or Debian 12.
 ## Installation
 
 ```bash
-wget https://raw.githubusercontent.com/plankanban/planka-installer/main/installer.sh -O /opt/planka_installer.sh && bash /opt/planka_installer.sh
+wget https://raw.githubusercontent.com/alcu1n/planka-installer/main/installer.sh -O /opt/planka_installer.sh && bash /opt/planka_installer.sh
 ```
 
 ### SSL Setup
@@ -98,4 +98,4 @@ You can re-install Planka by using the "Uninstall Planka" Option in the installe
 
 ## License
 
-[AGPL-3.0 license](https://github.com/plankanban/planka-installer/blob/main/LICENSE)
+[AGPL-3.0 license](https://github.com/alcu1n/planka-installer/blob/main/LICENSE)
