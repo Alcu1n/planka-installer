@@ -4,17 +4,17 @@ INSTALL_DIR="/opt/planka"
 COMPOSE_FILE="$INSTALL_DIR/docker-compose.yml"
 CONFIG_FILE=$INSTALL_DIR/.env
 
-DOWNLOAD_URL_INSTALLER_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/installer.sh"
-DOWNLOAD_URL_COMPOSE_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/docker-compose.yml"
+DOWNLOAD_URL_INSTALLER_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/installer.sh"
+DOWNLOAD_URL_COMPOSE_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/docker-compose.yml"
 
-DOWNLOAD_URL_BACKUP_CRON_SCRIPT_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/cron/backup.sh"
-DOWNLOAD_URL_PATCH_CRON_SCRIPT_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/cron/patch.sh"
-DOWNLOAD_URL_PLANKA_UPDATE_CRON_SCRIPT_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/cron/planka_update.sh"
-DOWNLOAD_URL_CRON_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/cron/planka-cron"
+DOWNLOAD_URL_BACKUP_CRON_SCRIPT_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/cron/backup.sh"
+DOWNLOAD_URL_PATCH_CRON_SCRIPT_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/cron/patch.sh"
+DOWNLOAD_URL_PLANKA_UPDATE_CRON_SCRIPT_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/cron/planka_update.sh"
+DOWNLOAD_URL_CRON_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/cron/planka-cron"
 
-DOWNLOAD_URL_NGINX_CONFIG_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/config/nginx-planka.conf"
-DOWNLOAD_URL_FAIL2BAN_FILTER_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/config/fail2ban-filter.conf"
-DOWNLOAD_URL_FAIL2BAN_JAIL_FILE="https://raw.githubusercontent.com/plankanban/planka-installer/main/config/fail2ban-jail.conf"
+DOWNLOAD_URL_NGINX_CONFIG_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/config/nginx-planka.conf"
+DOWNLOAD_URL_FAIL2BAN_FILTER_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/config/fail2ban-filter.conf"
+DOWNLOAD_URL_FAIL2BAN_JAIL_FILE="https://raw.githubusercontent.com/alcu1n/planka-installer/main/config/fail2ban-jail.conf"
 
 
 ####BACKUP
